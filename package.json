@@ -1,0 +1,33 @@
+{
+  "name": "espn-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzimmerman902/espn-scraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dzimmerman902/espn-scraper/issues"
+  },
+  "homepage": "https://github.com/dzimmerman902/espn-scraper#readme",
+  "dependencies": {
+    "@types/cheerio": "^0.22.29",
+    "@types/node": "^15.12.2",
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10"
+  },
+  "devDependencies": {
+    "@dzimmerman902/prettier-config": "^1.0.3",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.3.1",
+    "typescript": "^4.3.2"
+  },
+  "prettier": "@dzimmerman902/prettier-config"
+}
