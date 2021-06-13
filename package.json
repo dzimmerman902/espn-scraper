@@ -18,10 +18,11 @@
   },
   "homepage": "https://github.com/dzimmerman902/espn-scraper#readme",
   "dependencies": {
-    "@types/cheerio": "^0.22.29",
+    "@types/axios": "^0.14.0",
     "@types/node": "^15.12.2",
+    "@types/puppeteer": "^5.4.3",
     "axios": "^0.21.1",
-    "cheerio": "^1.0.0-rc.10"
+    "puppeteer": "^10.0.0"
   },
   "devDependencies": {
     "@dzimmerman902/prettier-config": "^1.0.3",

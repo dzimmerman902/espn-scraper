@@ -8,14 +8,7 @@
 // 8. Need to transform values according to sport.
 // 9. Pass into write field to save into database.
 
-import axios from 'axios';
-import cheerio from 'cheerio';
-
 (async () => {
     const baseURL = 'https://www.espn.com/nba/player/_/id';
     const playerEspnId = '4277905';
-
-    const body: string = await axios.get(`${baseURL}/${playerEspnId}`);
-
-    const $ = cheerio.load(body);
 })();
